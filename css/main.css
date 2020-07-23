@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+body {
+  background-color: #f7fcf4;
+  font-size: 30;
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main {
+  margin-right: auto;
+  margin-left: auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(245, 245, 248, 0.85)), to(rgba(245, 245, 248, 0.85))), url(../image/back.png);
+  background-image: linear-gradient(to right, rgba(245, 245, 248, 0.85), rgba(245, 245, 248, 0.85)), url(../image/back.png);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-position: 0 0;
+}
+
+.main__title {
+  text-align: center;
+  font-family: Pacifico;
+  letter-spacing: 10px;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.main__text {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 380px;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.main__back {
+  background-color: white;
+  opacity: 90%;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.header {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header__image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  height: 250px;
+}
+/*# sourceMappingURL=main.css.map */
